@@ -1,0 +1,106 @@
+/*ERIC MEYER*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+.clear
+{
+	clear: both;
+}
+body{
+	width: 100%;
+	margin: auto;
+}
+header {
+	margin-bottom: 30px;
+}
+h1 {
+	margin-top: 5px;
+	font-size: 2.1em;
+	text-align: center;
+}
+img .choix {
+	border-radius: 80px;
+	border: solid 1px;
+}
+#reg {
+	width: 60px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#img {
+	width: 340px;
+	border: solid 1px;	
+}
+#menu {
+	width: 75%;
+	position: absolute;
+	top: 50px;
+	left: -75%;
+	background-color: white;
+	height: 100%;
+}
+#menu img{
+	width: 25%;
+	margin-left: 5px;
+	float: left;
+}
+#menu ul {
+	margin-top: 40%;
+}
+#menu li {
+	padding-bottom: 35%;
+}
+#menu h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+.trait {
+	border: solid 1px;
+	margin-bottom: 6px;
+}
+#fav {
+	display: none;
+}
+#profil {
+	display: none;
+}
+.liste {
+	width: 34px;
+	border: solid 1px;	
+}
